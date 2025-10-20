@@ -106,13 +106,14 @@ abstract interface class GoldenScreenshotsConfig {
   static Type widgetType = MaterialApp;
 
   static set({
-    Size? forcedScreenSize,
+    // Using ValueGetter to allow nullability, for example: `() => null` or `() => Size(375, 667)`
+    ValueGetter<Size?>? forcedScreenSize,
     String? screenshotsFolderName,
     int? skipSnapshotsCount,
     Type? widgetType,
   }) {
     if (forcedScreenSize != null) {
-      GoldenScreenshotsConfig.forcedScreenSize = forcedScreenSize;
+      GoldenScreenshotsConfig.forcedScreenSize = forcedScreenSize();
     }
     if (screenshotsFolderName != null) {
       GoldenScreenshotsConfig.screenshotsFolderName = screenshotsFolderName;
