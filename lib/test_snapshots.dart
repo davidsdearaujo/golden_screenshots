@@ -15,6 +15,6 @@
 /// - pumpAndSettle
 /// - pump
 /// - expect (only when failing)
-library golden_screenshots;
+library test_snapshots;
 
 export 'src/flutter_test.dart';

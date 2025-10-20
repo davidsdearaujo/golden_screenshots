@@ -1,5 +1,5 @@
 This helper will use the golden tests structure to create snapshots of your
-widget tests, with no changes in the tests itself.
+widget tests, no changes required in the tests itself.
 
 ## Features
 
@@ -20,23 +20,23 @@ widget tests, with no changes in the tests itself.
 
 ## Getting started
 
-Add `golden_screenshots` to the `dev_dependencies` section in your
+Add `test_snapshots` to the `dev_dependencies` section in your
 `pubspec.yaml` file:
 
 ```yaml
 dev_dependencies:
-    golden_screenshots: ^0.0.1
+    test_snapshots: ^0.0.1
 ```
 
 ## Usage
 
 Replace the import `package:flutter_test/flutter_test.dart` with
-`package:golden_screenshots/golden_screenshots.dart` in the test file that you
+`package:test_snapshots/test_snapshots.dart` in the test file that you
 want to generate screenshots for:
 
 ```dart
 // import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_screenshots/golden_screenshots.dart';
+import 'package:test_snapshots/test_snapshots.dart';
 ```
 
 Now you simply run your tests with the `flutter test` command and the snapshots
@@ -45,10 +45,10 @@ will be generated in the `_snapshots` folder.
 ## Additional information
 
 You can find more information about the package in the
-[documentation](https://pub.dev/documentation/golden_screenshots/latest/).
+[documentation](https://pub.dev/documentation/test_snapshots/latest/).
 
 You can also find the package in the
-[pub.dev](https://pub.dev/packages/golden_screenshots) page.
+[pub.dev](https://pub.dev/packages/test_snapshots) page.
 
 You can also contribute to the package by creating a pull request or by
 reporting an issue.

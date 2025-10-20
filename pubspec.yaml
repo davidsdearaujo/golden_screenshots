@@ -1,7 +1,9 @@
-name: golden_screenshots
-description: "A helper to automatically create snapshots of your widget tests"
+name: test_snapshots
+description: "A helper to automatically create snapshots of your widget tests using golden tests structure"
 version: 1.0.0
-homepage: https://github.com/davidsdearaujo/golden_screenshots
+repository: https://github.com/davidsdearaujo/test_snapshots
+topics: [test, golden-test, widget-test, screenshot, snapshot]
+issue_tracker: https://github.com/davidsdearaujo/test_snapshots/issues
 
 environment:
   flutter: ">=3.22.0"

@@ -1,8 +1,8 @@
 import 'package:flutter/rendering.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/widgets.dart';
-import 'package:golden_screenshots/src/flutter_test.dart';
 
+import '../flutter_test.dart';
 import 'helpers.dart';
 
 class CustomWidgetTester extends WidgetController implements WidgetTester {
