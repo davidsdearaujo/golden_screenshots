@@ -16,12 +16,6 @@ widget tests, no changes required in the tests itself.
   - `tester.pumpAndSettle()`
   - failed `expect()` calls
 
-<br/>
-
-**Folder structure:**
-`_snapshots/<group_index>. <group_name>/<test_index>. <test_name>/<snapshot_index>. <trigger>.png`<br/>
-`_snapshots/1. my group/1. my custom test/1. pumpWidget.png`<br/>
-
 ## Getting started
 
 Add `test_snapshots` to the `dev_dependencies` section in your
@@ -47,6 +41,21 @@ Now you simply run your tests with the `flutter test` command and the snapshots
 will be generated in the `_snapshots` folder.
 
 ## Additional information
+
+<br/>
+
+**Folder structure:**
+```
+_snapshots/<group_index>. <group_name>/<test_index>. <test_name>/<snapshot_index>. <trigger>.png
+```
+
+```
+_snapshots/1. my group/2. my custom test/1. pumpWidget.png
+_snapshots/2. HomeScreen/1. should render/1. pumpWidget.png
+_snapshots/2. HomeScreen/2. should navigate to details page/1. pumpWidget.png
+_snapshots/2. HomeScreen/2. should navigate to details page/2. pumpAndSettle.png
+```
+<br/>
 
 You can find more information about the package in the
 [documentation](https://pub.dev/documentation/test_snapshots/latest/).
