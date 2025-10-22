@@ -25,7 +25,7 @@ Add `test_snapshots` to the `dev_dependencies` section in your
 
 ```yaml
 dev_dependencies:
-    test_snapshots: ^0.0.1
+    test_snapshots: <version>
 ```
 
 ## Usage
