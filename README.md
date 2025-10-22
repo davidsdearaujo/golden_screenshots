@@ -1,3 +1,7 @@
+<!--[![Fork](https://img.shields.io/github/forks/davidsdearaujo/colored_print?style=social)](https://github.com/davidsdearaujo/colored_print/fork) &nbsp; [![Star](https://img.shields.io/github/stars/davidsdearaujo/colored_print?style=social)](https://github.com/davidsdearaujo/colored_print/stargazers) &nbsp; [![Watches](https://img.shields.io/github/watchers/davidsdearaujo/colored_print?style=social)](https://github.com/davidsdearaujo/colored_print/) -->
+
+[![Plugin](https://img.shields.io/badge/pub.dev-test_snapshots-blue)](https://pub.dev/packages/test_snapshots) &nbsp; <!--[![Example](https://img.shields.io/badge/example-ex-success)](https://pub.dev/packages/colored_print#-example-tab-)-->
+
 This helper will use the golden tests structure to create snapshots of your
 widget tests, no changes required in the tests itself.
 
